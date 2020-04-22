@@ -1,0 +1,32 @@
+{
+  "name": "bloc_ts",
+  "version": "0.0.5",
+  "description": "A project to bring the power and flexibility of the Bloc pattern to TypeScript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyl-astardigital/bloc_ts.git"
+  },
+  "keywords": [
+    "bloc",
+    "TypeScript"
+  ],
+  "author": "andrew lewis astar-digital.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyl-astardigital/bloc_ts/issues"
+  },
+  "homepage": "https://github.com/andyl-astardigital/bloc_ts#readme",
+  "dependencies": {
+    "rxjs": "^6.5.5",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4"
+  }
+}

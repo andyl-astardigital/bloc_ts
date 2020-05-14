@@ -9,4 +9,4 @@ NPM: https://www.npmjs.com/package/bloc_ts
 
 See example directory:  https://github.com/andyl-astardigital/bloc_ts/tree/master/lib/example
 
-Components (React/Angular/Others) communicate with the business logic classes via firing Events (which can contain information). The components listen for the Blocs to emit new States and update the UI based on those States. In this case several State updates can be fired for a given Event giving powerful async behaviour while keeping Business Logic separated from across different UI technologies (and therefore re-usable) .
+Components (React/Angular/Others) communicate with the business logic classes via firing Events (which can contain information). The components listen for the Blocs to emit new States and update the UI based on those States. In this case several State updates can be fired for a given Event allowing powerful async behaviour while keeping Business Logic separated from UI (and therefore re-usable) .
